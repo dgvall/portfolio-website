@@ -16,8 +16,18 @@ function About() {
         </p>
         <img src={process.env.PUBLIC_URL + '/diego.png'} alt="Picture of Diego" />
       </div>
+      <h2 id = "about-subheader">Recent Tech Stack</h2>
       <div id = "techs">
         <Tech name = "JavaScript" fileName = '/js.png'/>
+        <Tech name = "React" fileName = '/react.png'/>
+        <Tech name = "Rails" fileName = '/rails.png'/>
+        <Tech name = "Sinatra" fileName = '/sinatra.png'/>
+        <Tech name = "HTML" fileName = '/html.png'/>
+        <Tech name = "CSS" fileName = '/css.png'/>
+        <Tech name = "SQL" fileName = '/sql.png'/>
+        <Tech name = "PostgreSQL" fileName = '/postgre.png'/>
+        <Tech name = "SQLite" fileName = '/sqlite.png'/>
+        <Tech name = "Git" fileName = '/git.png'/>
       </div>
 
     </div>
