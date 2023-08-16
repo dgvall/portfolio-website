@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {Typewriter} from 'react-simple-typewriter'
 import './Intro.css'
 
