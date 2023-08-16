@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Tech from './Tech'
 
 function About() {
   return (
@@ -15,6 +16,10 @@ function About() {
         </p>
         <img src={process.env.PUBLIC_URL + '/diego.png'} alt="Picture of Diego" />
       </div>
+      <div id = "techs">
+        <Tech name = "JavaScript" fileName = '/js.png'/>
+      </div>
+
     </div>
   )
 }
